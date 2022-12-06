@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="Bootstrap-css-assignment-2.css">
+	<link rel="stylesheet" href="CSS-Assignment-2.css">
+	<title> Union Website </title>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-sm">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="../index.html">Portfolio</a>
+			<div class="collapse navbar-collapse">
+				<ul class="navbar-nav mr-auto">
+					<li class="navbar-item"><a class="nav-link" href="../BOLT/index.html">BOLT Lesson Plan LayoutRedesign</a>
+					</li>
+					<li class="navbar-item"><a class="nav-link" href="../Microwave/index.html">Microwave User Study</a></li>
+					<li class="navbar-item"><a class="nav-link" href="../Ole/index.html">Ole Start-Up Mock-Up </a></li>
+					<li class="navbar-item"><a class="nav-link" href="../Union Site/index.html">Lexington Teachers' Union Website Redesign</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container-fluid the-body">
+		<div class="container-fluid main-section">
+			<a id="project_description"></a>
+			<h1>
+				Responsive Redesign - Lexington, MA Teachers' Union Website
+			</h1>
+			<h2>
+				Project Description
+			</h2>
+			<img src="Images/LEA_Website_Current.png" class="img-fluid"
+				alt="Screenshot of current Lexington Education Association Webpage">
+			<p>
+				This website was created for the Responsive Redesign assignment in Brown University's User
+				Interface/User Experience course.
+				I chose to recreate this website as it is the website for the teachers' union that my mom belongs to. I
+				hope that this Redesign
+				can potentially be implemented on the actual website and can help others learn more about the important
+				work that the Lexington
+				Public School Teachers' Union does for its members, their students, and the Lexington, MA community.
+				<a href="https://lexington.massteacher.org/" class="btn btn-lg btn-warning" role="button">View the
+					original website here!</a>
+			</p>
+			<p>
+				To create this project, I:
+			<ol>
+				<li>Analyzed the current usability and accessibility of the website</li>
+				<li>Created low-fidelity mockups of the website using wireframes</li>
+				<li>Constructed a visual-design style guide for the website, integrating Lexington's colors and mascot
+					into the design.</li>
+				<li>Mocked up a high-fidelity prototype of the website using Figma.</li>
+				<li>Coded the final website using CSS and HTML.</li>
+			</ol>
+			</p>
+			</P>
+		</div>
+		<div id="UPID" class="container-fluid main-section">
+			<div class="container-fluid sub-section">
+				<h2>
+					Usability Problem Identification
+				</h2>
+				<ul>
+					<li>Top header renders in low resolution
+						in some
+						places, and also does not include an image description</li>
+					<li>Twitter sidebar confuses reader about
+						where to first look
+						when navigating the page</li>
+					<li>Logo positioning at the top of the website makes it hard to tell where relevant information is.
+					</li>
+					<li>Hard to differentiate between
+						sections of the website
+						&mdash; What we do vs. who we are</li>
+					<li> Bulleted lists are very long and hard
+						to skim; hard
+						to parse out information from the list</li>
+					<li>Navbar conceptual model makes sense;
+						however clicking some headings takes you to pages while some others are just placeholders that
+						allow drop-downs to appear. Drop-downs are overwhelming.</li>
+					<li> Font of headings often hard to read, especially for the character 'W'</li>
+					<li>Website’s color scheme does not represent the brand of the union or the school district
+						(blue/yellow)</li>
+				</ul>
+			</div>
+		</div>
+		<div class="container-fluid sub-section">
+			<h2>
+				Accessibility Problem Identification
+			</h2>
+			<p> I found a couple of accessibility problems as well by WebAIM WAVE. I found that the algorithm
+				pointed out some interesting nuances about the
+				webpage, such as the contrast, that I had not previously considered and I believe are incredibly
+				important to fix to ensure people can access the union's important resources. However, I was happy
+				to see that this website, which is used by many, did not have many
+				accessibility problems to begin with, and I did not notice any accessibility concerns that the
+				algorithm did not point out.</p>
+			<li>The websites' images do not include image descriptions, making it difficult for screenreaders to
+				parse through the website.</li>
+			<li>Website's html code has no heading 2's</li>
+			</ul>
+		</div>
+		<div class="container-fluid main-section" href="prototypes">
+			<h2>Visual Redesign
+			</h2>
+			<h3> Lo-Fi Wireframes
+			</h3>
+			<p>
+				To start to redesign the website, I created a low-fidelity wireframe which solved the problems that
+				I had flagged in the
+				'usability problems identification' and 'accessibility problem identification' sections. I did this
+				for the tablet, desktop, and phone versions
+				of the union website. The problems are labeled on the wireframes below; for higher-resolution versions
+				of the wireframes, please go to the appendix at the bottom of this page.
+			</p>
+			<div class="container-fluid sub-section">
+				<h4>
+					Desktop Wireframe
+				</h4>
+				<img src="./Images/DesktopAnnotated.png" class="img-fluid" alt="Desktop wireframe of new website">
+			</div>
+			<div class="container-fluid sub-section">
+				<h4>
+					Tablet Wireframe
+				</h4>
+				<img src="./Images/iPadAnnotated.png" class="img-fluid" alt="iPad wireframe of new website">
+			</div>
+			<div class="container-fluid sub-section">
+				<h4>
+					Smartphone Wireframe
+				</h4>
+				<img src="./Images/iPhoneAnnotated.png" class="img-fluid" alt="iPhone wireframe of new website">
+			</div>
+			</h3>
+			<h3 href="StyleGuide">
+				Style Guide
+			</h3>
+			<p>
+				I created a style guide for my high-fidelity prototype, which I also used for the responsive redesign as
+				well. The guide is shown below:
+			</p>
+			<img src="./Images/StyleGuide.png" class="img-fluid" alt="Style Guide for the website.">
+			<h3>
+				Hi-Fi Figma Implementations
+			</h3>
+			<p>
+				After creating my style guide and wireframes, I made high-fidelity prototypes using Figma.
+			</p>
+			<div class="container-fluid sub-section">
+				<h4>
+					Desktop Figma Prototype
+				</h4>
+				<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
+					src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FFIirtzS6tbnQBb6IpDwkhl%2FAssignment-2%3Fnode-id%3D4%253A95"
+					allowfullscreen></iframe>
+			</div>
+			<div class="container-fluid sub-section">
+				<h4>
+					Tablet Figma Prototype
+				</h4>
+				<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
+					src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FFIirtzS6tbnQBb6IpDwkhl%2FAssignment-2%3Fnode-id%3D36%253A670"
+					allowfullscreen></iframe>
+			</div>
+			<div class="container-fluid sub-section">
+				<h4>
+					Smartphone Figma Prototype
+				</h4>
+				<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
+					src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FFIirtzS6tbnQBb6IpDwkhl%2FAssignment-2%3Fnode-id%3D36%253A745"
+					allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="container-fluid main-section align-items-center" id="finalproduct">
+			<h2>
+				Responsive Redesign
+			</h2>
+			<img src="./Images/NewWebsiteScreenie.png" class="img-fluid"
+				href="https://funkycat381.github.io/Lexington-Union-Website/" alt="screenshot of the new website">
+			<a href="https://funkycat381.github.io/Lexington-Union-Website/" class="btn btn-lg btn-warning"
+				role="button">Visit the website!</a>
+		</div>
+		<h2>Conclusions & Takeaways</h2>
+		<div class="list">
+		<ul>
+		  <li>
+		  <li>
+		</ul>
+		<div>
+			<h2>
+				Appendix
+			</h2>
+			<h3>
+				Higher Resoultion Wireframes with no labeling.
+			</h3>
+			<img src="./Images/Desktop.png" class="img-fluid" alt="Desktop wireframe no annotation">
+			<img src="./Images/iPad.png" class="img-fluid" alt="iPad wireframe of new website">
+			<img src="./Images/iPhone.png" class="img-fluid" alt="iPhone wireframe of new website">
+		</div>
+	</div>
+	</div>
+</body>
+</html>
