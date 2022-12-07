@@ -1,0 +1,135 @@
+
+#HTML-assignment2
+
+/*
+vars and color
+ */
+#opener{
+    /* define the color pallete */
+    --primary-color: #CCC5B9;
+    --secondary-color: #DDD8D0;
+    --accent-color: #23395B;
+    --text-color: #0B131D;
+    --second-accent: #241909;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+    background-color: #CCC5B9;
+    color: #0B131D;
+    line-height: 1.5;
+}
+
+img{
+    padding: 1% !important
+}
+
+h1 {
+    color: #23395B;
+}
+
+h5{
+  size: 14
+}
+
+.navbar {
+    background-color: #23395B;
+    color: #0B131D;
+}
+
+.navbar-item {
+    color: #0B131D;
+}
+
+.container-fluid {
+    background-color: #CCC5B9;
+    padding: 1%;
+}
+
+.the-body {
+    max-width: 75vw 60vw;
+    margin: 0 auto;
+    text-align: start;
+    display: flex;
+    align-items: stretch-center;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-top: 2.5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 2.5%;
+}
+
+.navbar-item{
+    color: #0B131D
+  }
+
+div.the-body>div:nth-of-type(odd) {
+    background: #CCC5B9;
+}
+
+div.the-body>div:nth-of-type(even) {
+    background: #DDD8D0;
+}
+
+.sub-section{
+    background:#DDD8D0;
+    padding: .5%;
+}
+
+.unit-box{
+    margin: 1%;
+}
+
+.social-media{
+    height: 60px;
+    width: 60px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#image_box{
+    margin-bottom: 2%;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-style: dashed;
+    padding: 2%;
+}
+
+.list{
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+}
+
+.grace-sketches {
+  display: inline-block;
+}
+
+.wireframe-box {
+  width: 45%;
+  padding: 15px;
+}
+
+h3{
+    font-size: x-large;
+    font-weight: 800;
+}
+h4{
+    font-size: medium;
+    text-align: center;
+    text-decoration: underline;
+    font-size:130%
+  }
+  h5 {
+  font-size:110%;
+  font-weight: 500;
+  text-decoration: underline;
+  }
+
+/* .container {
+  width: 80%;
+  display:flex;
+  justify-content: center;
+} */
