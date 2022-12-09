@@ -82,6 +82,10 @@ div.the-body>div:nth-of-type(even) {
     width: 60px;
 }
 
+.main-section{
+    padding: 4%
+}
+
 html {
     scroll-behavior: smooth;
 }
