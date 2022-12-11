@@ -60,13 +60,9 @@ h1 {
     color: #0B131D
   }
 
-div.the-body>div:nth-of-type(odd) {
-    background: #CCC5B9;
-}
-
-div.the-body>div:nth-of-type(even) {
-    background: #DDD8D0;
-}
+  hr.dashed {
+    border-top: 3px dashed #bbb;
+  }
 
 .sub-section{
     background:#DDD8D0;

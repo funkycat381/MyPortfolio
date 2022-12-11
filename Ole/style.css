@@ -116,6 +116,11 @@ h3{
     font-size: x-large;
     font-weight: 800;
 }
+
+hr.dashed {
+    border-top: 3px dashed #bbb;
+  }
+  
 h4{
     font-size: medium;
     text-align: center;
