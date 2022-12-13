@@ -20,7 +20,8 @@ body {
 }
 
 img{
-    padding: 1% !important;
+    padding-top: 4% !important;
+    padding-bottom: 4% !important;
     height:500px;
     width:500px
 }
@@ -81,8 +82,17 @@ h1 {
 }
 
 .isex:hover{
-    filter: brightness(150%);
+    filter: brightness(120%);
 }
+
+.isex{
+    border-radius: 50px;
+}
+/*credit for dashed: https://www.w3schools.com/howto/howto_css_dividers.asp*/
+hr.dashed {
+    border-top: 3px dashed #23395B;
+    
+  }
 
 html {
     scroll-behavior: smooth;

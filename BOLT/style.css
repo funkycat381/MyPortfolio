@@ -1,4 +1,5 @@
-#BOLT 
+#HTML-assignment2
+
 /*
 vars and color
  */
@@ -19,10 +20,15 @@ body {
 }
 
 img{
-    padding: 1% !important;
+    padding-top: 4% !important;
+    padding-bottom: 4% !important;
     height:500px;
     width:500px
 }
+
+hr.dashed {
+    border-top: 3px dashed #bbb;
+  }
 
 h1 {
     color: #23395B;
@@ -60,15 +66,6 @@ h1 {
     color: #0B131D
   }
 
-  hr.dashed {
-    border-top: 3px dashed #bbb;
-  }
-
-.sub-section{
-    background:#DDD8D0;
-    padding: .5%;
-}
-
 .unit-box{
     margin: 1%;
 }
@@ -78,9 +75,24 @@ h1 {
     width: 60px;
 }
 
-.main-section{
-    padding: 4%
+.isex:hover{
+    filter: brightness(120%);
 }
+
+.isex{
+    border-radius: 50px;
+}
+
+.sketch{
+    padding: 1em;
+    margin: 1em;
+    width: 30%
+}
+
+/*credit for dashed: https://www.w3schools.com/howto/howto_css_dividers.asp*/
+hr.dashed {
+    border-top: 3px dashed #23395B;
+  }
 
 html {
     scroll-behavior: smooth;
